@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "noEmitHelpers": true,
+        "noUnusedParameters": false,
+        "noUnusedLocals": false,
+        "baseUrl": "./",
+        "typeRoots": ["./node_modules/@types"],
+        "types": ["node"],
+        "lib": ["esnext"]
+    },
+    "exclude": ["node_modules"]
+}
